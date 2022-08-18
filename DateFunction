@@ -1,0 +1,10 @@
+
+
+Todays date   =TODAY()
+
+first day of currunt week   =TODAY()-WEEKDAY(TODAY(),2)+1
+last day of currunt week    =TODAY()-WEEKDAY(TODAY())+7
+
+
+First day of Last week  =(TODAY()-7)-WEEKDAY((TODAY()-7),2)+1
+Last day of last week  =TODAY()-WEEKDAY(TODAY(),2)-1
