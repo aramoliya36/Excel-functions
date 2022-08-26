@@ -10,6 +10,8 @@ First day of Last week  =(TODAY()-7)-WEEKDAY((TODAY()-7),2)+1
 Last day of last week  =TODAY()-WEEKDAY(TODAY(),2)-1
 
 
+=FILTER(data,(dates>=A1)*(dates<=A2),"No data")   filter data between two dates
+
 
 =FILTER(Data!A:M,Data!C:C>=TODAY()-WEEKDAY(TODAY())-5)    filter data from last week     (-5) count from last saturday  result Monday Date
 =FILTER(Data!A:M,Data!C:C>=TODAY()-WEEKDAY(TODAY())-12)    filter data from last week     (-12) count from last saturday  result second last Monday Date
